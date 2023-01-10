@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-	var v = "7.1.0";
+	var v = "8.0.0";
 	var on = "⌛";
 	var off = "🚫";
 	var versionid = document.getElementById("version");
@@ -7,8 +7,8 @@ window.addEventListener('load', function() {
 	var btntext02 = document.getElementById("btn-text02");
 	versionid.innerHTML = v;
 	
-	var AreInUpdate = false;
-	var NoUnavailable = true;
+	var AreInUpdate = true;
+	var NoUnavailable = true;  
 	var NoAllUnavailable = false;
 	
 	if ( AreInUpdate === true ) {
