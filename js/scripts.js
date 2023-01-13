@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
 	var btntext02 = document.getElementById("btn-text02");
 	versionid.innerHTML = v;
 	
-	var AreInUpdate = true;
+	var AreInUpdate = false;
 	var NoUnavailable = true;  
 	var NoAllUnavailable = false;
 	
