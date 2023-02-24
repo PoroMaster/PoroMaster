@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-	var v = "13.3";
+	var v = "13.4";
 	var on = "⌛";
 	var off = "🚫";
 	var versionid = document.getElementById("version");
