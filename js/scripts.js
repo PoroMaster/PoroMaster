@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-	var v = "13.5";
+	var v = "13.6";
 	var on = "⌛";
 	var off = "🚫";
 	var versionid = document.getElementById("version");
@@ -8,7 +8,7 @@ window.addEventListener('load', function() {
 	versionid.innerHTML = v;
 	
 	var AreInUpdate = false;
-	var NoUnavailable = true;  
+	var NoUnavailable = false;  
 	var NoAllUnavailable = false;
 	
 	if ( AreInUpdate === true ) {
